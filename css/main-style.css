@@ -1,0 +1,94 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.non{
+    display: none;
+}
+
+.order {
+   
+    border-radius:5px;
+    margin: 10px 0;
+}
+
+.bform {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+    overflow: hidden;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3e4555;
+}
+
+.subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .btn-danger-gradiant {
+    background: #4dd5ff;
+    background: -webkit-linear-gradient(legacy-direction(to right), #4dd5ff 0%, #ff6a5b 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#4dd5ff), to(#ff6a5b));
+    background: -webkit-linear-gradient(left, #4dd5ff 0%, #ff6a5b 100%);
+    background: -o-linear-gradient(left, #4dd5ff 0%, #ff6a5b 100%);
+    background: linear-gradient(to right, #4dd5ff 0%, #ff6a5b 100%);
+}
+
+.btn-danger-gradiant:hover {
+    background: #ff6a5b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ff6a5b 0%, #4dd5ff 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ff6a5b), to(#4dd5ff));
+    background: -webkit-linear-gradient(left, #ff6a5b 0%, #4dd5ff 100%);
+    background: -o-linear-gradient(left, #ff6a5b 0%, #4dd5ff 100%);
+    background: linear-gradient(to right, #ff6a5b 0%, #4dd5ff 100%);
+} */
+.btn-danger-gradiant {
+    background: #ff4d7e;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
+    background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+.btn-danger-gradiant:hover {
+    background: #ff6a5b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ff6a5b 0%, #ff4d7e 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ff6a5b), to(#ff4d7e));
+    background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+    background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+    background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+}
+
+.btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+.text-danger {
+    color: #ff4d7e !important;
+}
+
+@media (max-width: 1023px) {
+    .contact-form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.row{
+    margin-right:0;
+    margin-left:0;
+}
